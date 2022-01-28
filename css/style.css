@@ -29,9 +29,9 @@ h1 {
 }
 
 .slider {
-    max-width: 800px;
+    max-width: 500px; /*ставим свою ширену*/
     width: 100%;
-    height: 490px;
+    /* height: 490px; */
     position: relative;
     box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
 }
@@ -46,7 +46,7 @@ h1 {
     background-color: gray;
     opacity: 0.4;
     cursor: pointer;
-    transition: opacity .2s ease-in-out;
+    transition: opacity .5s;
 }
 
 #btn-prev:hover,
@@ -70,8 +70,9 @@ h1 {
 }
 
 img {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .dots {
